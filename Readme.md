@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Иван Кополович](https://up.htmlacademy.ru/htmlcss/29/user/1524257).
-* Наставник: `Неизвестно`.
+- Студент: [Иван Кополович](https://up.htmlacademy.ru/htmlcss/29/user/1524257).
+- Наставник: [Денис Власов] (https://htmlacademy.ru/profile/amaringo).
 
 ---
 
