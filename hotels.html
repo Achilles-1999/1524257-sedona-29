@@ -1,26 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-</head>
-<body>
-   <header> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+
       <nav>
-         <ul>
-            <a href="catalog.html"><li>Информация</li></a>
-            <a href="catalog.html"><li>Фото и видео</li></a>
-            <a href="catalog.html"><li>Карта штата</li></a>
-            <a href="catalog.html"><li>гостиницы</li></a>
-            <a href="http://127.0.0.1:5500/index.html"><img src="img/Shape.png" alt="Лого" /></a>
-         </ul>
+        <ul class="nav__list">
+          <li class="">
+            <a class="" href="#">Информация</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Фото и видео</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Карта штата</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Гостиницы</a>
+          </li>
+          <a href="http://127.0.0.1:5500/index.html#"
+            ><img src="img/Shape.png" alt="Лого"
+          /></a>
+        </ul>
       </nav>
-   </header>
-   <footer>
+    </header>
+
+    <main>
+       <form action="https://echo.htmlacademy.ru" method="post" >
+         <fieldset class="fieldset-hotels">
+      <section class="choose">
+        <div class="type-indusrtial">
+           <h2>Инфраструктура:</h2>
+        <label>
+          <input type="checkbox" id="" value="Бассейн" checked />
+          Бассейн
+        </label>
+        <label>
+          <input type="checkbox" id="" value="Парковка" />
+          Парковка
+        </label>
+        <label>
+          <input type="checkbox" id="" value="Wi-Fi" />
+          Wi-Fi
+        </label>
+      </div>
+   
+      <div class="type-house">
+      <label>
+         <h2>Тип жилья:</h2>
+         <input type="checkbox" id="" value="Гостиница" checked >
+         Гостиница
+       </label>
+       <label>
+         <input type="checkbox" id="" value="Мотель" checked >
+         Мотель
+       </label>
+       <label>
+         <input type="checkbox" id="" value="Апартаменты" checked >
+         Апартаменты
+       </label>
+       </div>
+      
+
+       <div class="range">
+          <h2>Стоимость в сутки (Р):</h2>
+          <label class="">от <input type="text" name="min-price" value="0"></label>
+			 <label class="">до <input type="text" name="max-price" value="3000"></label>
+          <input type="range" id="dayscount" name="dayscount" min="0" max="3000" step="1">
+      </div>
+      <input type="submit" value="Показать">
+   </fieldset>
+      </form>
+
+      </section>
+    </main>
+    <footer>
       <p>#visitSEDONA</p>
       <p>ТЕЛ: +7(495) 666-01-66</p>
-   </footer>
-   
-</body>
+    </footer>
+  </body>
 </html>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head class="">
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Главная</title>
@@ -21,8 +21,9 @@
           <li>
             <a href="catalog.html">Гостиницы</a>
           </li>
+          <li><a href="index.html#"><img src="img/Shape.png" alt="Лого"></a>
+          </li>
         </ul>
-        <a href="http://127.0.0.1:5500/index.html#"><img src="img/Shape.png" alt="Лого"></a>
       </nav>
     </header>
 
@@ -33,59 +34,77 @@
         <img src="img/Welcome2.png" alt="">
       </div>
       
-    <section class="wrapper__header">
+    <section class="hero">
         <h1>Седона - небольшой городок в Аризоне, заслуживающий большего</h1>
         <p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон</p>
     </section>
 
-    <section class="info-header">
+    <section class="reason">
       <div class="">
         <img src="img/image.png" />
-        <p>НАСТОЯЩИЙ ГОРОДОК</p>
-        <p>— №1 —</p>
-        <p>Седона &mdash; неаттракцион для туристов, там течет своя жизнь</p>
+        <div class="reason-text">
+          <h2>Настоящий городок</h2>
+          <p>— №1 —</p>
+          <p>Седона &mdash; не аттракцион для туристов, там течет своя жизнь</p>
+        </div>
       </div>
 
-         <div class="info-main">
-        <h3>Жильё</h3>
-        <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-        <h3>Еда</h3>
-        <p>Не только китайского, но и местного производства!</p>
-        <h3>Сувениры</h3>
-        <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+      <div class="reason-header">
+        <div class="icon-housing">
+          <h3>Жильё</h3>
+          <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+        </div>
+        <div class="icon-food">
+          <h3>Еда</h3>
+          <p>Не только китайского, но и местного производства!</p>
+        </div>
+        <div class="icon-souvenir">
+          <h3>Сувениры</h3>
+          <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+        </div>
       </div>
-    </section>
-    
-      <section class="info-footer">
-    <div class="">
-        <img src="img/image1.png" />
-        <p>Там есть Мост дьявола</p>
-        <p>— №2 —</p>
-        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-      </div>
-
+     
       <div class="">
-        <h3>небольшая площадь</h3>
-        <p>— №3 —</p>
-        <h3>красивая дорога</h3>
-        <p>— №4 —</p>
-        <h3>мало туристов</h3>
-        <p>— №5 —</p>
+        <img src="img/image1.png" />
+        <div class="reason-text">
+          <h2>Там есть Мост дьявола</h2>
+          <p>— №2 —</p>
+          <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+        </div>
+      </div>
+
+      <div class="reason-footer">
+        <div class="reason-footer-s">
+          <h3>небольшая площадь</h3>
+          <p>— №3 —</p>
+          <p>все достопримечательности
+            находятся очень близко</p>
+          </div>
+        <div class="reason-footer-road">
+          <h3>красивая дорога</h3>
+          <p>— №4 —</p>
+          <p>ехать в седону из лас-вегаса совсем
+            не скучно!</p>
+          </div>
+        <div class="reason-footer-tourist">
+          <h3>мало туристов</h3>
+          <p>— №5 —</p>
+          <p>большинство едет в гранд каньон и толпится там</p>
+          </div>
       </div>
       </section>
-        <div class="text-preform">
+
+        <section class="travel"> 
+          <div class="text-preform">
           <p>
             <h2>Заинтересовались?</h2>
             <p>Укажите предполагаемые даты поездки, и мы покажем
             вам лучшие предложения гостиниц в седоне</p>
           </p>
         </div>
-
-        <article class=""> 
+ 
+        <button class="" type="submit">Поиск гостиницы в Седоне</button>
         <form action="https://echo.htmlacademy.ru" method="POST" class="form">
-          <fieldset class=""> 
-
-            <button class="" type="submit">Поиск гостиницы в Седоне</button>
 
           <label for="date of arrival">Дата заезда:</label>
           <input type="date" id="date of arrival">
@@ -93,35 +112,33 @@
           <label for="date of departure">Дата выезда:</label>
           <input type="date" id="date of departure">
           
-          <label for="adults">Взрослые</label>
-          <input type="number" id="adults">
-          
-          
-          
+           <label for="adults">Взрослые</label>
+           <input type="image" src="img/Minus.png" id="adults">
+           <input type="number" id="adults">
+           <input type="image" src="img/Plus.png" id="adults">
+            
+            
           <label for="children">Дети</label>
+          <input type="image" src="img/Minus.png" id="children">
           <input type="number" id="children">
-          
+          <input type="image" src="img/Plus.png" id="children">
+
           <input type="submit" value="НАЙТИ">
-        </fieldset>
         </form>
-      </article>
+    </section>
     </main>
 
     <footer>
-      <div class="">
 				<div class="">
-          <p>ТЕЛ: +7(495) 666-01-66</p>
+          <p href="tel:+74956660166">ТЕЛ: +7(495) 666-01-66</p>
 					<a class="" href="#">#VisitSedona</a>
 				</div>
-				<div class="">	
-					<a class="" href="#" title="Наша страница в Twitter">
-						<img src="img/twitter.png" alt="">
+		<!--<div class="">	
+				  <a class="" href="#" title="Наша страница в Twitter">
 					</a>
 					<a class="social__link fb__link" href="#" title="Наша страница в Facebook">
-						<img src="img/fb-icon.png" alt="">
 					</a>
 					<a class="social__link yb__link" href="#" title="Наша страница на YouTube">
-						<img src="img/youtube.png" alt="">
 					</a>
 				</div>
 				<div class="">
@@ -129,8 +146,7 @@
 					<a class="" href="https://htmlacademy.ru/intensive/htmlcss">
 						<img src="img/logo-htmlacademy.png" alt="">
 					</a>	 
-				</div>
-      </div>
+				</div>-->
     </footer>
   </body>
 </html> 
