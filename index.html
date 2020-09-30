@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Главная</title>
 </head>
 
@@ -30,102 +30,109 @@
   </header>
 
   <main class="content">
-    <div class="header_background">
-      <img src="img/background photo.png" alt="Пейзаж местности" />
-      <img src="img/Welcome.png" alt="">
-      <img src="img/Welcome2.png" alt="">
-    </div>
 
     <section class="hero">
+      <div class="header_background">
+        <img src="img/background photo.png" alt="Пейзаж местности">
+      </div>
       <h1>Седона - небольшой городок в Аризоне, заслуживающий большего</h1>
       <p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон</p>
     </section>
 
-    <div class="reasons-main">
-      <img src="img/image.png" alt="Вид на город Седона" class="image-one">
-      <div class="reasons-description">
-        <h3 class="reasons-title">Настоящий городок</h3>
-        <p class="reasons-number">&ndash; №1 &ndash;</p>
-        <p class="reasons-text">Седона — не аттракцион для&nbsp;туристов, там&nbsp;течет своя жизнь</p>
-      </div>
-
+    <section class="reasons-main">
       <ul class="advices">
-        <li class="advices-house">
-          <b class="advices-title">Жилье</b>
-          <p class="advices-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+        <img src="img/image.png" alt="Вид на город Седона" class="image-one">
+        <li>
+          <div class="reasons-description">
+            <h3 class="reasons-title">Настоящий городок</h3>
+            <p class="reasons-number">&ndash; №1 &ndash;</p>
+            <p class="reasons-text">Седона — не аттракцион для&nbsp;туристов, там&nbsp;течет своя жизнь</p>
+          </div>
         </li>
 
-        <li class="advices-burger">
-          <b class="advices-title">Еда</b>
-          <p class="advices-text">Всегда заказывайте фирменный бургер, вы&nbsp;не разочаруетесь!</p>
-        </li>
+        <ul>
+          <li class="advices-house">
+            <b class="advices-title">Жилье</b>
+            <p class="advices-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          </li>
 
-        <li class="advices-gift">
-          <b class="advices-title">Сувениры</b>
-          <p class="advices-text">Не только китайского, но и местного производства!</p>
-        </li>
-      </ul>
+          <li class="advices-burger">
+            <b class="advices-title">Еда</b>
+            <p class="advices-text">Всегда заказывайте фирменный бургер, вы&nbsp;не разочаруетесь!</p>
+          </li>
 
-      <div class="features-reverse">
+          <li class="advices-gift">
+            <b class="advices-title">Сувениры</b>
+            <p class="advices-text">Не только китайского, но и местного производства!</p>
+          </li>
+        </ul>
+
         <img src="img/image1.png" alt="">
-        <div class="features-description">
-          <h3 class="features-main">Там есть мост&nbsp;дьявола</h3>
-          <p class="features-number">&ndash; №2 &ndash;</p>
-          <p class="features-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-        </div>
+        <li>
+          <div class="reasons-description">
+            <h3 class="reasons-title">Там есть мост&nbsp;дьявола</h3>
+            <p class="features-number">&ndash; №2 &ndash;</p>
+            <p class="features-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          </div>
+        </li>
 
-        <div class="features-additional">
+        <li>
           <div class="features-additional-item">
             <h3 class="features-title">Небольшая площадь</h3>
             <p class="features-number">&ndash; №3 &ndash;</p>
             <p class="features-text">Все достопримечательности находятся очень близко</p>
           </div>
+        </li>
 
+        <li>
           <div class="features-additional-item">
             <h3 class="features-title">Красивая дорога</h3>
             <p class="features-number">&ndash; №4 &ndash;</p>
             <p class="features-text">Ехать в седону из Лас-Вегаса совсем не&nbsp;скучно!</p>
           </div>
+        </li>
 
+        <li>
           <div class="features-additional-item">
             <h3 class="features-title">Мало туристов</h3>
             <p class="features-number">&ndash; №5 &ndash;</p>
             <p class="features-text">Большинство едет в гранд каньон и толпится там</p>
           </div>
-        </div>
+        </li>
+      </ul>
+    </section>
 
-        <section class="travel">
-          <div class="text-preform">
-            <p>
-            <h2>Заинтересовались?</h2>
-            <p>Укажите предполагаемые даты поездки, и мы покажем
-              вам лучшие предложения гостиниц в седоне</p>
-            </p>
-          </div>
+    <section class="travel">
+      <h2>форма поиска гостиниц</h2>
+      <div class="text-preform">
+        <span class="">Заинтересовались?</span>
+        <p>Укажите предполагаемые даты поездки, и мы покажем
+          вам лучшие предложения гостиниц в седоне</p>
+      </div>
+    </section>
 
-          <button class="" type="submit">Поиск гостиницы в Седоне</button>
-          <form action="https://echo.htmlacademy.ru" method="POST" class="form">
+    <button class="" type="button">Поиск гостиницы в Седоне</button>
+    <form action="https://echo.htmlacademy.ru" method="POST" class="form">
 
-            <label for="date of arrival">Дата заезда:</label>
-            <input type="date" id="date of arrival">
+      <label for="date of arrival">Дата заезда:</label>
+      <input type="date" id="date of arrival">
 
-            <label for="date of departure">Дата выезда:</label>
-            <input type="date" id="date of departure">
+      <label for="date of departure">Дата выезда:</label>
+      <input type="date" id="date of departure">
 
-            <label for="adults">Взрослые</label>
-            <input type="image" src="img/Minus.png" id="adults">
-            <input type="number" id="adults">
-            <input type="image" src="img/Plus.png" id="adults">
+      <label for="adults">Взрослые</label>
+      <button type="button">-</button>
+      <input type="number" id="adults">
+      <button type="button">+</button>
 
+      <label for="children">Дети</label>
+      <button type="button">-</button>
+      <input type="number" id="children">
+      <button type="button">+</button>
 
-            <label for="children">Дети</label>
-            <input type="image" src="img/Minus.png" id="children">
-            <input type="number" id="children">
-            <input type="image" src="img/Plus.png" id="children">
-
-            <input type="submit" value="НАЙТИ">
-          </form>
-        </section>
+      <input type="submit" value="НАЙТИ">
+    </form>
+    </section>
   </main>
 
   <footer>
@@ -133,20 +140,22 @@
       <p href="tel:+74956660166">ТЕЛ: +7(495) 666-01-66</p>
       <a class="" href="#">#VisitSedona</a>
     </div>
-    <!--<div class="">	
-				  <a class="" href="#" title="Наша страница в Twitter">
-					</a>
-					<a class="social__link fb__link" href="#" title="Наша страница в Facebook">
-					</a>
-					<a class="social__link yb__link" href="#" title="Наша страница на YouTube">
-					</a>
-				</div>
-				<div class="">
-					<p class="">Website by</p>
-					<a class="" href="https://htmlacademy.ru/intensive/htmlcss">
-						<img src="img/logo-htmlacademy.png" alt="">
-					</a>	 
-				</div>-->
+    <div class="social-submit">
+      <ul>
+        <li><a class="social__link tw__link" href="#" title="Наша страница в Twitter">
+          </a></li>
+        <li><a class="social__link fb__link" href="#" etitl="Наша страница в Facebook">
+          </a></li>
+        <li><a class="social__link yb__link" href="#" title="Наша страница на YouTube">
+          </a></li>
+      </ul>
+    </div>
+    <div class="">
+      <p class="">Website by</p>
+      <a class="" href="https://htmlacademy.ru/intensive/htmlcss">
+        <img src="img/logo-htmlacademy.png" alt="">
+      </a>
+    </div>
   </footer>
 </body>
 
